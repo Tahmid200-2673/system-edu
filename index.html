@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SEducation</title>
+  <script src="https://kit.fontawesome.com/0d3ffc30b8.js" crossorigin="anonymous"></script>
   <!-- bootstrap link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -104,12 +105,12 @@
       <section class="container d-flex justify-content-center text-center" style="margin-top:100px">
         <div class="d-flex flex-column w-50" id="Courses">
           <h2>Discover Our Popular Courses</h2>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
         </div>
       </section>
        <!-- Discover section end-->
        <!-- card start -->
-       <section class="container">
+       <section class="container" id="Deals">
         <div class="row justify-content-center m-5 row-cols-lg-2">
           <div class="card mx-4 mb-3" style="max-width: 540px; height: 173px; ">
             <div class="row g-0">
@@ -202,15 +203,17 @@
     </section>
        <!-- card end -->
        <!-- meet our successful students section start-->
-       <section class="container d-flex justify-start text-start" style="margin-top:100px">
+       <section class="container d-flex justify-start text-start" id="Success" style="margin-top:100px">
         <div class="d-flex justify-content-center flex-column w-50 mx-3" id="Courses">
-          <h2 class="fw-bold ">Meet Our Successfull Students</h2>
+          <h2 >Meet Our Successfull Students</h2>
           <p class="text-secondary fw-normal ">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
         </div>
       </section>
-      <section class="container d-flex flex-row">
+      <section class="container ">
+       <!-- <div class="d-flex justify-content-center flex-row"> -->
+        <div class="row justify-content-center m-1 row-cols-lg-4">
         <div class="card mx-3" style="width: 18rem;">
-          <img src="images/student/student-1.png" class="card-img-top" alt="...">
+          <img src="images/student/student-1.png" class="card-img-top " style="width: 18rem; margin-left:-13px ; " alt="...">
           <div class="card-body">
             <h5 class="card-title fs-5 fw-semibold">Awlad Hossain</h5>
             <p class="card-text text-secondary">UI/UX Designer</p>
@@ -218,7 +221,7 @@
           </div>
         </div>
         <div class="card mx-3" style="width: 18rem;">
-          <img src="images/student/student-2.png" class="card-img-top" alt="...">
+          <img src="images/student/student-2.png" class="card-img-top" style="width: 18rem; margin-left:-13px ;" alt="...">
           <div class="card-body">
             <h5 class="card-title fs-5 fw-semibold">Jannatul Islam</h5>
             <p class="card-text text-secondary">Motion Design</p>
@@ -226,7 +229,7 @@
           </div>
         </div>
         <div class="card mx-3" style="width: 18rem;">
-          <img src="images/student/student-3.png" class="card-img-top" alt="...">
+          <img src="images/student/student-3.png" class="card-img-top" style="width: 18rem; margin-left:-13px ;" alt="...">
           <div class="card-body">
             <h5 class="card-title fs-5 fw-semibold">Imran Hossain</h5>
             <p class="card-text text-secondary">Graphic Designer</p>
@@ -234,17 +237,115 @@
           </div>
         </div>
         <div class="card mx-3" style="width: 18rem;">
-          <img src="images/student/student-4.png" class="card-img-top" alt="...">
+          <img src="images/student/student-4.png" class="card-img-top" style="width: 18rem; margin-left:-13px ;" alt="...">
           <div class="card-body">
             <h5 class="card-title fs-5 fw-semibold">Nishi Akter</h5>
             <p class="card-text text-secondary">Web Developer</p>
             
           </div>
         </div>
-      </section>
-       <!-- meet our successful students section end-->
-       
+        <div class="btn btn-primary btn-lg fw-semibold mt-5 " style="width: 140px; height: 46px;" >View All</div>
+       </div>
+      <!-- feedback section start-->
+      <div class="container d-flex justify-content-center text-center" style="margin-top:100px">
+        <div class="d-flex flex-column w-50" id="Courses">
+          <h2>Some Students Feedback</h2>
+          <p class="text-secondary fw-normal">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+      </div>
 
+<!-- <div class="container" >
+        <div class="row justify-content-center m-5 row-cols-lg-2">
+          <div class="card mx-4 mb-3" style="width: 33rem; height: 20rem; ">
+            <div class="row g-0">
+              <div class="col-md-4 " style="margin-left:-12px; " >
+                
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title fs-5 fw-semibold"style="color:#4A4A4A">Fundamental Of UI/UX Design</h5>
+                   <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                    <p class="card-text text-primary fs-5 fw-semibold">Price : 20$</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mx-4 mb-3" style="width: 33rem;height: 20rem; ">
+            <div class="row g-0">
+              <div class="col-md-4 " style="margin-left:-12px; ">
+             
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title fs-5 fw-semibold" style="color:#4A4A4A">Javascript Basic to advanced</h5>
+                   <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                  <p class="card-text text-primary fs-5 fw-semibold">Price : 20$</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+          
+          
+        </div> -->
+        
+      
+       <div class="container">
+        <div class="row justify-content-center m-5 row-cols-lg-2">
+          <div class="card mx-3 mb-3" style=" width: 33rem;height: 20rem; ">
+            <div class="card-body">
+              
+              <div class="d-flex justify-content-between">
+                <img src="images/comma.png" alt="">
+                <div ><i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star empty"></i>
+                </div>
+              </div>
+              <div class="position-absolute top-50 start-0 translate-middle bg-primary rounded-5">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div >
+              <p class="card-text mt-5 text-secondary fw-semibold">UI design can be a very good career, providing ample opportunities and a competitive salary. There are, in fact, quite a few benefits to a career as a UI Designer. If you have a fine eye for visuals and a strong creative impulse, UI design can be a great way to scratch that itch.</p>
+              <div class="d-flex" >
+                <img src="images/student/student-5.png" alt="">
+                <p>&nbsp;<b>Awlad Hossain</b><br>&nbsp;<span class="text-secondary">UI Designer</span></p>
+              </div>
+            
+            </div>
+           
+          </div>
+          <div class="card mx-3 mb-3" style=" width: 33rem;height: 20rem;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <img src="images/comma.png" alt="">
+                <div><i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star empty"></i>
+                </div>
+              </div>
+              <div class="position-absolute top-50 start-100 translate-middle bg-primary rounded-5">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <p class="card-text mt-5 text-secondary fw-semibold">Graphic design is a great career for people who are creative thinkers and enjoy art, technology, and communication. There are design needs across every industry, so Graphic Designers have many opportunities to take on a range of new and exciting projects.</p>
+              <div class="d-flex">
+                <img src="images/student/student-6.png" alt="">
+                <p>&nbsp;<b>Shanta Akter</b><br>&nbsp;<span class="text-secondary">Graphic Designer</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+       <!-- feedback section end--> 
+      </section>
+       
+       <!-- meet our successful students section end-->
+
+    
   </main>
   <!-- bootstrap link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
